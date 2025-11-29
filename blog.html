@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tips Laundry & Blog - Family Laundry</title>
+  <meta name="description" content="Tips merawat pakaian, cara mencuci yang benar, dan artikel bermanfaat seputar laundry">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/tailwind.output.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">FAMILY LAUNDRY</div>
+      <div class="menu">
+        <a href="/">Beranda</a>
+        <a href="about.html">Tentang Kami</a>
+        <a href="services.html">Layanan</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Kontak</a>
+        <a href="blog.html" class="active">Tips Laundry</a>
+      </div>
+      <div class="nav-actions" id="authButtons">
+        <a href="../index.html#reservasi" class="btn-reservasi">Pesan Sekarang</a>
+        <a href="../login-login-main/dumb/index.html" class="btn btn-primary btn-large"><i class="fas fa-sign-in-alt" aria-hidden="true"></i> Login</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="page-hero" style="background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); padding: 100px 20px 60px;">
+    <div class="container" style="text-align: center; color: white;">
+      <h1 style="font-size: 48px; margin-bottom: 20px;">💡 Tips & Artikel Laundry</h1>
+      <p style="font-size: 20px; opacity: 0.9;">Panduan Lengkap Merawat Pakaian Anda</p>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section style="padding: 40px 20px; background: #f8f9fa;">
+    <div class="container">
+      <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+        <button class="category-btn active" data-category="all" style="padding: 10px 25px; background: var(--primary-color); color: white; border: none; border-radius: 25px; cursor: pointer; font-weight: 500;">Semua</button>
+        <button class="category-btn" data-category="tips" style="padding: 10px 25px; background: white; color: #666; border: 2px solid #e0e0e0; border-radius: 25px; cursor: pointer; font-weight: 500;">Tips Mencuci</button>
+        <button class="category-btn" data-category="care" style="padding: 10px 25px; background: white; color: #666; border: 2px solid #e0e0e0; border-radius: 25px; cursor: pointer; font-weight: 500;">Perawatan</button>
+        <button class="category-btn" data-category="stain" style="padding: 10px 25px; background: white; color: #666; border: 2px solid #e0e0e0; border-radius: 25px; cursor: pointer; font-weight: 500;">Menghilangkan Noda</button>
+        <button class="category-btn" data-category="storage" style="padding: 10px 25px; background: white; color: #666; border: 2px solid #e0e0e0; border-radius: 25px; cursor: pointer; font-weight: 500;">Penyimpanan</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Article -->
+  <section style="padding: 60px 20px;">
+    <div class="container">
+      <div style="background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); border-radius: 25px; overflow: hidden; box-shadow: 0 20px 60px rgba(19,195,201,0.3);">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); align-items: center;">
+          <div style="padding: 60px; color: white;">
+            <div style="display: inline-block; background: rgba(255,255,255,0.3); padding: 8px 16px; border-radius: 20px; font-size: 14px; margin-bottom: 20px;">
+              ⭐ ARTIKEL PILIHAN
+            </div>
+            <h2 style="font-size: 36px; margin-bottom: 20px; color: white;">9 Kesalahan dan Saran Mencuci Pakaian</h2>
+            <p style="font-size: 18px; opacity: 0.9; line-height: 1.8; margin-bottom: 30px; color: white;">
+              Solusi menghindari kesalahan saat mencuci pakaian dan memberikan saran untuk hasil maksimal yang memuaskan
+            </p>
+
+            </a>
+          </div>
+          <div style="height: 400px; background: url('https://images.unsplash.com/photo-1517677208171-0bc6725a3e60?w=800') center/cover;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Articles -->
+  <section style="padding: 40px 20px 80px;">
+    <div class="container">
+      <div class="blog-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 30px;">
+
+        <!-- Article 1 -->
+        <article class="blog-card" data-category="tips" style="background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.08); transition: transform 0.3s;">
+          <div style="height: 200px; background: url('laundress-work.jpg') center/cover; position: relative;">
+            <img src="laundress-work.jpg" alt="Cara Memisahkan Pakaian Sebelum Dicuci" style="width: 100%; height: 200px; object-fit: cover; position: absolute; top: 0; left: 0; opacity: 0;" onerror="this.style.display='none'; this.parentElement.style.background='var(--primary-color)';">
+          </div>
+          <div style="padding: 25px;">
+            <div style="display: inline-block; background: var(--primary-light); color: var(--primary-dark); padding: 6px 12px; border-radius: 15px; font-size: 12px; margin-bottom: 15px;">TIPS MENCUCI</div>
+            <h3 style="color: var(--primary-color); margin-bottom: 15px; font-size: 20px;">Cara Mudah Memisahkan Pakaian Sebelum Dicuci</h3>
+            <p style="color: #666; line-height: 1.6; margin-bottom: 20px; font-size: 14px;">
+              Memisahkan pakaian sebelum dicuci sangat penting untuk menjaga warna tetap cerah, mencegah luntur, dan membuat pakaian lebih awet. Langkah pertama adalah memisahkan pakaian berdasarkan warna: kelompokkan pakaian putih, pakaian berwarna cerah, dan pakaian berwarna gelap agar tidak saling menodai selama proses pencucian. Setelah itu, pisahkan juga berdasarkan jenis kain. Kain halus seperti pakaian dalam, hijab, satin, atau kaus tipis sebaiknya dicuci terpisah atau dimasukkan ke dalam laundry bag, sedangkan kain tebal seperti jeans, jaket, dan handuk dicuci bersama karena membutuhkan putaran lebih kuat
+            </p>
+            <div style="display: flex; justify-content: space-between; align-items: center; color: #999; font-size: 14px; margin-bottom: 15px;">
+              <span><i class="far fa-calendar"></i> 1 Nov 2025</span>
+              <span><i class="far fa-clock"></i> 5 menit baca</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Article 2 -->
+        <article class="blog-card" data-category="stain" style="background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.08);">
+          <div style="height: 200px; background: url('clothes.jpg') center/cover; position: relative;">
+            <img src="clothes.jpg" alt="Trik Ampuh Menghilangkan Noda Membandel" style="width: 100%; height: 200px; object-fit: cover; position: absolute; top: 0; left: 0; opacity: 0;" onerror="this.style.display='none'; this.parentElement.style.background='var(--primary-color)';">
+          </div>
+          <div style="padding: 25px;">
+            <div style="display: inline-block; background: var(--primary-light); color: var(--primary-dark); padding: 6px 12px; border-radius: 15px; font-size: 12px; margin-bottom: 15px;">MENGHILANGKAN NODA</div>
+            <h3 style="color: var(--primary-color); margin-bottom: 15px; font-size: 20px;">Trik Ampuh Menghilangkan Noda Membandel</h3>
+            <p style="color: #666; line-height: 1.6; margin-bottom: 20px; font-size: 14px;">
+             Menghilangkan noda membandel bisa dilakukan dengan bahan sederhana yang ada di rumah. Untuk noda minyak, gunakan bedak bayi atau sabun cuci piring yang mampu memecah lemak. Noda tinta dapat dihilangkan dengan alkohol atau hand sanitizer yang ditepuk perlahan hingga warna memudar. Noda darah paling efektif dibersihkan dengan air dingin lalu diberi garam atau hydrogen peroxide. Jika terkena kopi atau teh, rendam area noda dengan air hangat bercampur deterjen sebelum digosok pelan. Noda saus cukup dikikis dulu sisa yang menempel lalu diberi sabun cair. Untuk noda kuning di ketiak, gunakan pasta baking soda dan sikat lembut.
+            </p>
+            <div style="display: flex; justify-content: space-between; align-items: center; color: #999; font-size: 14px; margin-bottom: 15px;">
+              <span><i class="far fa-calendar"></i> 28 Okt 2025</span>
+              <span><i class="far fa-clock"></i> 7 menit baca</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Article 3 -->
+        <article class="blog-card" data-category="care" style="background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.08);">
+          <div style="height: 200px; background: url('shirt.jpg') center/cover; position: relative;">
+            <img src="shirt.jpg" alt="Merawat Pakaian Berbahan Khusus" style="width: 100%; height: 200px; object-fit: cover; position: absolute; top: 0; left: 0; opacity: 0;" onerror="this.style.display='none'; this.parentElement.style.background='var(--primary-color)';">
+          </div>
+          <div style="padding: 25px;">
+            <div style="display: inline-block; background: var(--primary-light); color: var(--primary-dark); padding: 6px 12px; border-radius: 15px; font-size: 12px; margin-bottom: 15px;">PERAWATAN</div>
+            <h3 style="color: var(--primary-color); margin-bottom: 15px; font-size: 20px;">Merawat Pakaian Berbahan Khusus</h3>
+            <p style="color: #666; line-height: 1.6; margin-bottom: 20px; font-size: 14px;">
+              Pakaian berbahan khusus seperti sutra, wol, satin, atau linen perlu perlakuan lembut agar tetap awet. Cuci dengan tangan atau gunakan mode delicate pada mesin cuci, lalu pakai deterjen yang memang aman untuk kain halus. Hindari memeras terlalu kuat karena bisa merusak serat kain. Untuk pengeringan, cukup jemur di tempat teduh dan biarkan kering alami—jangan dijemur langsung di bawah matahari agar warna tidak pudar. Saat menyetrika, gunakan suhu rendah dan setrika dari bagian dalam kain. Simpan pakaian dengan cara digantung atau dilipat rapi agar bentuknya tetap terjaga.
+            </p>
+            <div style="display: flex; justify-content: space-between; align-items: center; color: #999; font-size: 14px; margin-bottom: 15px;">
+              <span><i class="far fa-calendar"></i> 25 Okt 2025</span>
+              <span><i class="far fa-clock"></i> 6 menit baca</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Article 4 -->
+        <article class="blog-card" data-category="tips" style="background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.08);">
+          <div style="height: 200px; background: url('mantab.png') center/cover; position: relative;">
+            <img src="mantab.png" alt="Suhu Air yang Tepat untuk Setiap Jenis Pakaian" style="width: 100%; height: 200px; object-fit: cover; position: absolute; top: 0; left: 0; opacity: 0;" onerror="this.style.display='none'; this.parentElement.style.background='var(--primary-color)';">
+          </div>
+          <div style="padding: 25px;">
+            <div style="display: inline-block; background: var(--primary-light); color: var(--primary-dark); padding: 6px 12px; border-radius: 15px; font-size: 12px; margin-bottom: 15px;">TIPS MENCUCI</div>
+            <h3 style="color: var(--primary-color); margin-bottom: 15px; font-size: 20px;">Suhu Air yang Tepat untuk Setiap Jenis Pakaian</h3>
+            <p style="color: #666; line-height: 1.6; margin-bottom: 20px; font-size: 14px;">
+              Memilih suhu air yang tepat sangat penting agar pakaian tetap awet dan bersih. Air dingin cocok untuk pakaian gelap atau kain halus seperti sutra dan satin karena mencegah warna luntur dan kain menyusut. Air hangat ideal untuk pakaian katun atau linen sehari-hari, membantu noda ringan terangkat lebih mudah. Sedangkan air panas sebaiknya digunakan hanya untuk pakaian putih, handuk, atau sprei yang sangat kotor, karena efektif membersihkan dan membunuh bakteri, tapi bisa merusak kain halus dan membuat warna cepat pudar.
+            </p>
+            <div style="display: flex; justify-content: space-between; align-items: center; color: #999; font-size: 14px; margin-bottom: 15px;">
+              <span><i class="far fa-calendar"></i> 22 Okt 2025</span>
+              <span><i class="far fa-clock"></i> 4 menit baca</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Article 5 -->
+        <article class="blog-card" data-category="storage" style="background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.08);">
+          <div style="height: 200px; background: url('lemari.png') center/cover; position: relative;">
+            <img src="lemari.png" alt="Cara Menyimpan Pakaian di Lemari" style="width: 100%; height: 200px; object-fit: cover; position: absolute; top: 0; left: 0; opacity: 0;" onerror="this.style.display='none'; this.parentElement.style.background='var(--primary-color)';">
+          </div>
+          <div style="padding: 25px;">
+            <div style="display: inline-block; background: var(--primary-light); color: var(--primary-dark); padding: 6px 12px; border-radius: 15px; font-size: 12px; margin-bottom: 15px;">PENYIMPANAN</div>
+            <h3 style="color: var(--primary-color); margin-bottom: 15px; font-size: 20px;">Cara Menyimpan Pakaian di Lemari</h3>
+            <p style="color: #666; line-height: 1.6; margin-bottom: 20px; font-size: 14px;">
+              Pakaian sebaiknya disimpan sesuai jenis dan frekuensi pemakaian. Pakaian yang mudah kusut atau halus, seperti kemeja, blus, dan sutra, sebaiknya digantung menggunakan hanger agar bentuknya tetap rapi. Pakaian tebal seperti sweater, jaket, atau jeans lebih baik dilipat agar tidak merusak hanger dan tidak meregang. Pisahkan pakaian menurut kategori, misalnya baju kerja, baju santai, dan pakaian musim dingin, sehingga mudah dicari. Simpan juga pakaian yang jarang dipakai 
+            </p>
+            <div style="display: flex; justify-content: space-between; align-items: center; color: #999; font-size: 14px; margin-bottom: 15px;">
+              <span><i class="far fa-calendar"></i> 20 Okt 2025</span>
+              <span><i class="far fa-clock"></i> 5 menit baca</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Article 6 -->
+        <article class="blog-card" data-category="care" style="background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.08);">
+          <div style="height: 200px; background: url('luntur.png') center/cover; position: relative;">
+            <img src="luntur.png" alt="Mencegah Pakaian Luntur dan Pudar" style="width: 100%; height: 200px; object-fit: cover; position: absolute; top: 0; left: 0; opacity: 0;" onerror="this.style.display='none'; this.parentElement.style.background='var(--primary-color)';">
+          </div>
+          <div style="padding: 25px;">
+            <div style="display: inline-block; background: var(--primary-light); color: var(--primary-dark); padding: 6px 12px; border-radius: 15px; font-size: 12px; margin-bottom: 15px;">PERAWATAN</div>
+            <h3 style="color: var(--primary-color); margin-bottom: 15px; font-size: 20px;">Mencegah Pakaian Luntur dan Pudar</h3>
+            <p style="color: #666; line-height: 1.6; margin-bottom: 20px; font-size: 14px;">
+              ntuk menjaga warna pakaian tetap cerah, cuci pakaian berwarna terpisah dari pakaian putih atau terang, terutama pada 1–2 kali pencucian pertama. Gunakan air dingin atau hangat, bukan panas, karena air panas mempercepat luntur warna. Pilih deterjen yang lembut dan khusus untuk pakaian berwarna, serta hindari penggunaan pemutih berbasis klorin. Balikkan pakaian saat mencuci dan menjemur agar bagian luar tidak langsung terpapar gesekan dan sinar matahari. Saat menjemur, letakkan di tempat teduh untuk mencegah warna pudar.
+            </p>
+            <div style="display: flex; justify-content: space-between; align-items: center; color: #999; font-size: 14px; margin-bottom: 15px;">
+              <span><i class="far fa-calendar"></i> 18 Okt 2025</span>
+              <span><i class="far fa-clock"></i> 6 menit baca</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Article 7 -->
+        <article class="blog-card" data-category="stain" style="background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.08);">
+          <div style="height: 200px; background: url('noda.png') center/cover; position: relative;">
+            <img src="noda.png" alt="Mengatasi Noda Kopi dan Teh" style="width: 100%; height: 200px; object-fit: cover; position: absolute; top: 0; left: 0; opacity: 0;" onerror="this.style.display='none'; this.parentElement.style.background='var(--primary-color)';">
+          </div>
+          <div style="padding: 25px;">
+            <div style="display: inline-block; background: var(--primary-light); color: var(--primary-dark); padding: 6px 12px; border-radius: 15px; font-size: 12px; margin-bottom: 15px;">MENGHILANGKAN NODA</div>
+            <h3 style="color: var(--primary-color); margin-bottom: 15px; font-size: 20px;">Mengatasi Noda Kopi dan Teh</h3>
+            <p style="color: #666; line-height: 1.6; margin-bottom: 20px; font-size: 14px;">
+             Noda kopi dan teh sebaiknya segera ditangani agar tidak menempel permanen. Pertama, bilas noda dengan air dingin atau hangat untuk mengurangi sisa minuman yang terserap kain. Selanjutnya, oleskan sedikit deterjen cair atau sabun pada noda dan gosok perlahan. Untuk noda membandel, rendam pakaian dalam campuran air hangat dan sedikit baking soda atau deterjen selama 15–30 menit sebelum dicuci. Setelah itu, cuci seperti biasa. Menangani noda segera dan tidak menunggu terlalu lama akan membuat noda kopi dan teh lebih mudah hilang tanpa merusak kain.
+            </p>
+            <div style="display: flex; justify-content: space-between; align-items: center; color: #999; font-size: 14px; margin-bottom: 15px;">
+              <span><i class="far fa-calendar"></i> 15 Okt 2025</span>
+              <span><i class="far fa-clock"></i> 4 menit baca</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Article 8 -->
+        <article class="blog-card" data-category="tips" style="background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.08);">
+          <div style="height: 200px; background: url('sabun.png') center/cover; position: relative;">
+            <img src="sabun.png" alt="Memilih Deterjen yang Tepat" style="width: 100%; height: 200px; object-fit: cover; position: absolute; top: 0; left: 0; opacity: 0;" onerror="this.style.display='none'; this.parentElement.style.background='var(--primary-color)';">
+          </div>
+          <div style="padding: 25px;">
+            <div style="display: inline-block; background: var(--primary-light); color: var(--primary-dark); padding: 6px 12px; border-radius: 15px; font-size: 12px; margin-bottom: 15px;">TIPS MENCUCI</div>
+            <h3 style="color: var(--primary-color); margin-bottom: 15px; font-size: 20px;">Memilih Deterjen yang Tepat</h3>
+            <p style="color: #666; line-height: 1.6; margin-bottom: 20px; font-size: 14px;">
+             Memilih deterjen yang sesuai penting agar pakaian bersih maksimal tanpa merusak kain. Untuk pakaian berwarna, pilih deterjen khusus warna agar warna tidak cepat pudar. Pakaian putih atau sangat kotor bisa menggunakan deterjen dengan pemutih aman untuk menjaga kecerahan. Untuk kain halus seperti sutra, satin, atau wol, gunakan deterjen lembut atau deterjen khusus pakaian halus agar serat kain tidak rusak. Selain itu, perhatikan juga bentuk deterjen—cair, bubuk, atau kapsul—sesuai kebutuhan dan jenis mesin cuci. Dengan memilih deterjen yang tepat, pakaian lebih awet, bersih, dan warnanya tetap terjaga.
+            </p>
+            <div style="display: flex; justify-content: space-between; align-items: center; color: #999; font-size: 14px; margin-bottom: 15px;">
+              <span><i class="far fa-calendar"></i> 12 Okt 2025</span>
+              <span><i class="far fa-clock"></i> 5 menit baca</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Article 9 -->
+        <article class="blog-card" data-category="storage" style="background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.08);">
+          <div style="height: 200px; background: url('pewangi.png') center/cover; position: relative;">
+            <img src="pewangi.png" alt="Cara Alami Membuat Pakaian Wangi Tahan Lama" style="width: 100%; height: 200px; object-fit: cover; position: absolute; top: 0; left: 0; opacity: 0;" onerror="this.style.display='none'; this.parentElement.style.background='var(--primary-color)';">
+          </div>
+           <div style="padding: 25px;">
+            <div style="display: inline-block; background: var(--primary-light); color: var(--primary-dark); padding: 6px 12px; border-radius: 15px; font-size: 12px; margin-bottom: 15px;">PENYIMPANAN</div>
+            <h3 style="color: var(--primary-color); margin-bottom: 15px; font-size: 20px;">Cara Alami Membuat Pakaian Wangi Tahan Lama</h3>
+            <p style="color: #666; line-height: 1.6; margin-bottom: 20px; font-size: 14px;">
+              Untuk membuat pakaian harum tanpa bahan kimia berlebihan, kamu bisa memanfaatkan bahan alami. Tambahkan beberapa tetes essential oil seperti lavender, lemon, atau tea tree ke dalam air bilasan terakhir saat mencuci. Gunakan juga air cuka putih (sekitar ½ cangkir) saat membilas pakaian untuk menetapkan aroma dan melembutkan kain. Jemur pakaian di tempat teduh agar wangi tidak cepat hilang karena sinar matahari langsung. Setelah kering, simpan pakaian bersama potpourri, daun lavender, atau baking soda di lemari untuk menjaga aroma tetap segar.
+            </p>
+            <div style="display: flex; justify-content: space-between; align-items: center; color: #999; font-size: 14px; margin-bottom: 15px;">
+              <span><i class="far fa-calendar"></i> 10 Okt 2025</span>
+              <span><i class="far fa-clock"></i> 6 menit baca</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Tips Section -->
+  <section style="background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); padding: 80px 20px; color: white;">
+    <div class="container">
+      <h2 style="text-align: center; margin-bottom: 60px; font-size: 36px;">💎 Quick Tips Laundry</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px;">
+        <div style="background: rgba(255,255,255,0.1); padding: 30px; border-radius: 15px; backdrop-filter: blur(10px);">
+          <div style="font-size: 48px; margin-bottom: 15px;">🧴</div>
+          <h3 style="margin-bottom: 15px;">Deterjen Secukupnya</h3>
+          <p style="opacity: 0.9; line-height: 1.8;">Jangan terlalu banyak deterjen, cukup sesuai takaran untuk hasil optimal.</p>
+        </div>
+        <div style="background: rgba(255,255,255,0.1); padding: 30px; border-radius: 15px; backdrop-filter: blur(10px);">
+          <div style="font-size: 48px; margin-bottom: 15px;">🌊</div>
+          <h3 style="margin-bottom: 15px;">Bilas Hingga Bersih</h3>
+          <p style="opacity: 0.9; line-height: 1.8;">Pastikan tidak ada sisa deterjen yang menempel pada pakaian.</p>
+        </div>
+        <div style="background: rgba(255,255,255,0.1); padding: 30px; border-radius: 15px; backdrop-filter: blur(10px);">
+          <div style="font-size: 48px; margin-bottom: 15px;">☀️</div>
+          <h3 style="margin-bottom: 15px;">Jemur di Tempat Teduh</h3>
+          <p style="opacity: 0.9; line-height: 1.8;">Hindari sinar matahari langsung untuk pakaian berwarna agar tidak pudar.</p>
+        </div>
+        <div style="background: rgba(255,255,255,0.1); padding: 30px; border-radius: 15px; backdrop-filter: blur(10px);">
+          <div style="font-size: 48px; margin-bottom: 15px;">⚡</div>
+          <h3 style="margin-bottom: 15px;">Cuci Segera</h3>
+          <p style="opacity: 0.9; line-height: 1.8;">Jangan biarkan pakaian kotor menumpuk terlalu lama.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section style="padding: 80px 20px;">
+    <div class="container">
+      <div style="max-width: 600px; margin: 0 auto; text-align: center;">
+        <h2 style="color: var(--primary-color); margin-bottom: 20px;">📬 Subscribe Newsletter</h2>
+        <p style="color: #666; margin-bottom: 30px; font-size: 18px;">
+          Dapatkan tips laundry terbaru dan promo eksklusif langsung di email Anda!
+        </p>
+        <form style="display: flex; gap: 15px; flex-wrap: wrap; justify-content: center;">
+          <input type="email" placeholder="Email Anda" required style="flex: 1; min-width: 250px; padding: 15px 20px; border: 2px solid #e0e0e0; border-radius: 30px; font-size: 16px;">
+          <button type="submit" style="padding: 15px 40px; background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); color: white; border: none; border-radius: 30px; font-weight: 600; cursor: pointer; font-size: 16px;">
+            Subscribe
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3>Family Laundry</h3>
+          <p>Layanan laundry terpercaya di Tulungagung sejak 2018</p>
+        </div>
+        <div class="footer-links">
+          <div class="link-group">
+            <h5>Menu</h5>
+            <a href="../index.html">Beranda</a>
+            <a href="about.html">Tentang Kami</a>
+            <a href="services.html">Layanan</a>
+            <a href="faq.html">FAQ</a>
+          </div>
+          <div class="link-group">
+            <h5>Kontak</h5>
+            <p><i class="fab fa-whatsapp"></i> 0857-4519-8337</p>
+            <p><i class="fas fa-envelope"></i> familyloundry.id@gmail.com</p>
+            <p><i class="fas fa-map-marker-alt"></i> Tulungagung, Jawa Timur</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright © 2024 Family Laundry. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/auth.js"></script>
+  <script src="../assets/js/script.js"></script>
+  <script>
+    // Category Filter
+    const categoryBtns = document.querySelectorAll('.category-btn');
+    const blogCards = document.querySelectorAll('.blog-card');
+
+    categoryBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const category = btn.dataset.category;
+
+        // Update active button
+        categoryBtns.forEach(b => {
+          b.style.background = 'white';
+          b.style.color = '#666';
+          b.classList.remove('active');
+        });
+        btn.style.background = 'var(--primary-color)';
+        btn.style.color = 'white';
+        btn.classList.add('active');
+
+        // Filter cards
+        blogCards.forEach(card => {
+          if (category === 'all' || card.dataset.category === category) {
+            card.style.display = 'block';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Hover effect for blog cards
+    blogCards.forEach(card => {
+      card.addEventListener('mouseenter', () => {
+        card.style.transform = 'translateY(-10px)';
+      });
+      card.addEventListener('mouseleave', () => {
+        card.style.transform = 'translateY(0)';
+      });
+    });
+  </script>
+</body>
+</html>
